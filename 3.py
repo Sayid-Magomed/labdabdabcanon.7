@@ -5,4 +5,4 @@ for file in filenames:
     with Image.open(file) as img:
         img.load()
         new_img = img.filter(ImageFilter.CONTOUR)
-        new_img.save("neww_" + file)
+        new_img.save("new_" + file)
