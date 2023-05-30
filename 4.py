@@ -11,4 +11,4 @@ with Image.open(filename) as img:
     img.load()
 
 img.paste(img_water, (10, 200), img_water)
-img.save("watermark_wolta.jpg")
+img.save("watermark_wolwta.jpg")
