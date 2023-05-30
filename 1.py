@@ -1,6 +1,6 @@
 from PIL import Image, ImageFilter
 
-filename = "shrek.jpeg"
+filename = "wolta.jpg"
 with Image.open(filename) as img:
     img.load()
 
